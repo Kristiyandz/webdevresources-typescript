@@ -1,0 +1,57 @@
+@import '../styles/mixins/mediaQueriesMixins.module.scss';
+
+
+@include mobile {
+ 
+
+  .ResourceCardWrapper {
+    // display: flex;
+    // flex-direction: row;
+    margin-top: 30px;
+  }
+}
+
+@include mobiles-tablets-landscape {
+
+  .ResourceCardWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+    
+  }
+}
+
+@include tablets-portrait {
+
+  .ResourceCardWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+@include laptops-desktops {
+
+  .ResourceCardWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+@include large-desktops {
+
+    .ResourceCardWrapper {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      width: auto;
+      margin: 0 auto;
+    }
+}
