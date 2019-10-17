@@ -1,0 +1,32 @@
+@import '../styles/mixins/mediaQueriesMixins.module.scss';
+
+
+@include mobile {
+  .MainWrapper {
+    height: auto;
+  }
+}
+
+@include mobiles-tablets-landscape {
+  .MainWrapper {
+    height: auto;
+  }
+}
+
+@include tablets-portrait {
+  .MainWrapper {
+    height: auto;
+  }
+}
+
+@include laptops-desktops {
+  .MainWrapper {
+    height: auto;
+  }
+}
+
+@include large-desktops {
+  .MainWrapper {
+    height: auto;
+  }
+}
